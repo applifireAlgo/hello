@@ -28,6 +28,7 @@ public class CreateSampleServiceImpl implements CreateSampleService {
         for (projecttwo.app.shared.appinsight.QueryOneRM queryOneRMListElement : queryOneRMList) {
             projecttwo.app.shared.appinsight.health.Bug bug = new projecttwo.app.shared.appinsight.health.Bug();
             bug.setBugName(queryOneRMListElement.getBugName() + "Issue");
+            System.out.println("BugName"+queryOneRMListElement.getBugName());
             bug.setComponent(queryOneRMListElement.getComponent());
             bug.setPriority(queryOneRMListElement.getPriority());
             bugRepository.update(bug);
