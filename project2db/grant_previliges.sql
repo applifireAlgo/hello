@@ -1,0 +1,2 @@
+
+GRANT ALL PRIVILEGES  ON project2.* TO 'project2'@'%' IDENTIFIED BY 'project2' WITH GRANT OPTION

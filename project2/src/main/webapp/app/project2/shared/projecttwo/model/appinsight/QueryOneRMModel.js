@@ -1,0 +1,40 @@
+Ext.define('Project2.project2.shared.projecttwo.model.appinsight.QueryOneRMModel', {
+     "extend": "Ext.data.Model",
+     "fields": [{
+          "name": "bugId",
+          "type": "string",
+          "defaultValue": ""
+     }, {
+          "name": "bugName",
+          "type": "string",
+          "defaultValue": ""
+     }, {
+          "name": "component",
+          "type": "string",
+          "defaultValue": ""
+     }, {
+          "name": "priority",
+          "type": "string",
+          "defaultValue": ""
+     }, {
+          "name": "versionId",
+          "type": "int",
+          "defaultValue": ""
+     }, {
+          "name": "createdBy",
+          "type": "string",
+          "defaultValue": ""
+     }, {
+          "name": "createdDate",
+          "type": "auto",
+          "defaultValue": ""
+     }, {
+          "name": "updatedBy",
+          "type": "string",
+          "defaultValue": ""
+     }, {
+          "name": "updatedDate",
+          "type": "auto",
+          "defaultValue": ""
+     }]
+});
